@@ -64,6 +64,24 @@ a {
     display: none;
 }
 
+.container {
+    margin-top: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.content {
+    padding: 10px;
+    margin: 20px;
+}
+.content img {
+    width: 300px;
+}
+
 @media screen and (max-width: 760px) {
     .navbar {
         flex-direction: column;
